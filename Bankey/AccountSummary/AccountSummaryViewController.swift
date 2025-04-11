@@ -2,7 +2,7 @@
 //  AccountSummaryViewController.swift
 //  Bankey
 //
-//  Created by Sonika Patel on 10/04/25.
+//  Created by jrasmusson on 2021-10-27.
 //
 
 import UIKit
@@ -43,13 +43,15 @@ extension AccountSummaryViewController {
             tableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
         ])
     }
+    
     private func setupTableHeaderView() {
         let header = AccountSummaryHeaderView(frame: .zero)
+        
         var size = header.systemLayoutSizeFitting(UIView.layoutFittingCompressedSize)
         size.width = UIScreen.main.bounds.width
         header.frame.size = size
-        tableView.tableHeaderView = header
         
+        tableView.tableHeaderView = header
     }
 }
 
@@ -64,7 +66,6 @@ extension AccountSummaryViewController: UITableViewDataSource {
         return games.count
     }
 }
-
 
 extension AccountSummaryViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

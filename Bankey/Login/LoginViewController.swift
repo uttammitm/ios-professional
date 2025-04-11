@@ -23,6 +23,7 @@ class LoginViewController: UIViewController {
     let loginView = LoginView()
     let signInButton = UIButton(type: .system)
     let errorMessageLabel = UILabel()
+    
     weak var delegate: LoginViewControllerDelegate?
     
     var username: String? {
