@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0077D82DBC6EAA00F20AEE /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0077D72DBC6EAA00F20AEE /* Date+Utils.swift */; };
+		3F0077DA2DBC6F1000F20AEE /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0077D92DBC6F1000F20AEE /* AccountSummaryViewController+Networking.swift */; };
 		3F04EDEC2DB42E240054CE3E /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04EDEB2DB42E240054CE3E /* ShakeyBellView.swift */; };
 		3F7C4CC22DAEE6B2006F35D9 /* DecimalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C4CC12DAEE6B2006F35D9 /* DecimalUtils.swift */; };
 		3F7C4CC42DAEE742006F35D9 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C4CC32DAEE742006F35D9 /* CurrencyFormatter.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F0077D72DBC6EAA00F20AEE /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		3F0077D92DBC6F1000F20AEE /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
 		3F04EDEB2DB42E240054CE3E /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
 		3F7C4CC12DAEE6B2006F35D9 /* DecimalUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalUtils.swift; sourceTree = "<group>"; };
 		3F7C4CC32DAEE742006F35D9 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
@@ -123,6 +127,7 @@
 			children = (
 				3FBC20372DAB0FF400C330E5 /* Cells */,
 				713845762729784700E5E07C /* AccountSummaryViewController.swift */,
+				3F0077D92DBC6F1000F20AEE /* AccountSummaryViewController+Networking.swift */,
 				3FBC20332DAB0F6A00C330E5 /* Header */,
 			);
 			path = AccountSummary;
@@ -199,6 +204,7 @@
 				3F7C4CC32DAEE742006F35D9 /* CurrencyFormatter.swift */,
 				3F82BC412DB3037500664F45 /* NSNotificationName.swift */,
 				3F82BC432DB30A0800664F45 /* UITextField+SecureToggle.swift */,
+				3F0077D72DBC6EAA00F20AEE /* Date+Utils.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -314,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71EA3CF92724662500B12DE6 /* UIViewController+Utils.swift in Sources */,
+				3F0077D82DBC6EAA00F20AEE /* Date+Utils.swift in Sources */,
 				71A0F7C826FD2B75008EAFD8 /* LoginViewController.swift in Sources */,
 				71F770952710E99A0025AC04 /* LocalState.swift in Sources */,
 				7167DB7C272ACC6C004CAEB6 /* AccountSummaryHeaderView.swift in Sources */,
@@ -330,6 +337,7 @@
 				713845772729784700E5E07C /* AccountSummaryViewController.swift in Sources */,
 				71D109B22705DD3B000A0633 /* OnboardingViewController.swift in Sources */,
 				717ADC0D2703B80300C89FDB /* OnboardingContainerViewController.swift in Sources */,
+				3F0077DA2DBC6F1000F20AEE /* AccountSummaryViewController+Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
