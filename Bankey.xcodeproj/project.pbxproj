@@ -18,6 +18,8 @@
 		3FBC20392DAB102A00C330E5 /* AccountSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC20382DAB102A00C330E5 /* AccountSummaryCell.swift */; };
 		3FC284B42DBD59D0004E8FB2 /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC284B32DBD59D0004E8FB2 /* ProfileTests.swift */; };
 		3FC284B62DBD6906004E8FB2 /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC284B52DBD6906004E8FB2 /* AccountTests.swift */; };
+		3FC284B82DBED5BE004E8FB2 /* SkeletonLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC284B72DBED5BE004E8FB2 /* SkeletonLoadable.swift */; };
+		3FC284BA2DBEDCDF004E8FB2 /* SkeletonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC284B92DBEDCDF004E8FB2 /* SkeletonCell.swift */; };
 		713845772729784700E5E07C /* AccountSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713845762729784700E5E07C /* AccountSummaryViewController.swift */; };
 		713D9FFF270F216F00193EE6 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713D9FFE270F216F00193EE6 /* DummyViewController.swift */; };
 		7167DB7C272ACC6C004CAEB6 /* AccountSummaryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167DB7B272ACC6C004CAEB6 /* AccountSummaryHeaderView.swift */; };
@@ -57,6 +59,8 @@
 		3FBC20382DAB102A00C330E5 /* AccountSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryCell.swift; sourceTree = "<group>"; };
 		3FC284B32DBD59D0004E8FB2 /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
 		3FC284B52DBD6906004E8FB2 /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
+		3FC284B72DBED5BE004E8FB2 /* SkeletonLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonLoadable.swift; sourceTree = "<group>"; };
+		3FC284B92DBEDCDF004E8FB2 /* SkeletonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonCell.swift; sourceTree = "<group>"; };
 		713845762729784700E5E07C /* AccountSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewController.swift; sourceTree = "<group>"; };
 		713D9FFE270F216F00193EE6 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 		7167DB7B272ACC6C004CAEB6 /* AccountSummaryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryHeaderView.swift; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				3FBC20382DAB102A00C330E5 /* AccountSummaryCell.swift */,
+				3FC284B72DBED5BE004E8FB2 /* SkeletonLoadable.swift */,
+				3FC284B92DBEDCDF004E8FB2 /* SkeletonCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -344,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71EA3CF92724662500B12DE6 /* UIViewController+Utils.swift in Sources */,
+				3FC284BA2DBEDCDF004E8FB2 /* SkeletonCell.swift in Sources */,
 				3F0077D82DBC6EAA00F20AEE /* Date+Utils.swift in Sources */,
 				71A0F7C826FD2B75008EAFD8 /* LoginViewController.swift in Sources */,
 				71F770952710E99A0025AC04 /* LocalState.swift in Sources */,
@@ -361,6 +368,7 @@
 				713845772729784700E5E07C /* AccountSummaryViewController.swift in Sources */,
 				71D109B22705DD3B000A0633 /* OnboardingViewController.swift in Sources */,
 				717ADC0D2703B80300C89FDB /* OnboardingContainerViewController.swift in Sources */,
+				3FC284B82DBED5BE004E8FB2 /* SkeletonLoadable.swift in Sources */,
 				3F0077DA2DBC6F1000F20AEE /* AccountSummaryViewController+Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
